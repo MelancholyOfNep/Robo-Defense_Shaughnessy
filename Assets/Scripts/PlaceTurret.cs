@@ -7,6 +7,10 @@ public class PlaceTurret : MonoBehaviour
 	[SerializeField]
 	GameObject turretPF1, turretPF2;
 
+	[SerializeField]
+	string Turret1Key = "a", Turret2Key = "s";
+
+
 	GameObject selectedTurret;
 	GameObject turret;
 
@@ -17,9 +21,9 @@ public class PlaceTurret : MonoBehaviour
 
     private void Update()
     {
-		if (Input.GetKeyDown("a"))
+		if (Input.GetKeyDown(Turret1Key))
 			selectedTurret = turretPF1;
-		if (Input.GetKeyDown("s"))
+		if (Input.GetKeyDown(Turret2Key))
 			selectedTurret = turretPF2;
     }
 

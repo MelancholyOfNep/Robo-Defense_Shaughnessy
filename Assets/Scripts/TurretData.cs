@@ -5,7 +5,6 @@ using UnityEngine;
 public class TurretData : MonoBehaviour
 {
     public int cost;
-    public GameObject turretTier;
     public int lifetime;
 
 }

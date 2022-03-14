@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretPF1: {fileID: 4629711105644869333, guid: 71de20a7ebb473847966f3e6aaeaed68, type: 3}
-  turretPF2: {fileID: 0}
+  turretPF2: {fileID: 8181713975250893165, guid: 1818a47928c7a9741bf2d2ddb16d6c0e, type: 3}
 --- !u!82 &-5450750707163823490
 AudioSource:
   m_ObjectHideFlags: 0
