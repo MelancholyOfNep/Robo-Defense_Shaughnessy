@@ -10,12 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 7299453946058118575}
   - component: {fileID: 4487709177992197377}
-  - component: {fileID: 1782546295659394397}
   - component: {fileID: 4230008583175855314}
   - component: {fileID: -4015193571824922354}
-  m_Layer: 0
+  - component: {fileID: 1782546295659394397}
+  - component: {fileID: 1345182965403710399}
+  - component: {fileID: 8407287433380786496}
+  m_Layer: 6
   m_Name: Enemy1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,20 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1782546295659394397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757782084673154492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c779e6e15d41dfa478df4edb1a0763e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints: []
-  moveSpeed: 2
 --- !u!50 &4230008583175855314
 Rigidbody2D:
   serializedVersion: 4
@@ -137,6 +125,47 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
+--- !u!114 &1782546295659394397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757782084673154492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c779e6e15d41dfa478df4edb1a0763e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  moveSpeed: 2
+--- !u!114 &1345182965403710399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757782084673154492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5026f0a270799df4996815bb5cc5a693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 4330491353791122306}
+  maxHealth: 100
+  currentHealth: 100
+--- !u!114 &8407287433380786496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757782084673154492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2ad8823459011459074d19b4f00757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &974616684105002515
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +178,7 @@ GameObject:
   - component: {fileID: 7439300082256118016}
   - component: {fileID: 9165811214187634353}
   - component: {fileID: 1289494494520038996}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4233438632688927391}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +312,7 @@ GameObject:
   - component: {fileID: 7972489649691439781}
   - component: {fileID: 7900730903980910983}
   - component: {fileID: 4945494526798736442}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -357,7 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8437404211463996525}
   - component: {fileID: 4330491353791122306}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -372,7 +401,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5072465223083462101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.033664003}
   m_Children:
   - {fileID: 5654078386599776961}
@@ -384,7 +413,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.377}
-  m_SizeDelta: {x: 16.86, y: 8.51}
+  m_SizeDelta: {x: 20.58, y: 8.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4330491353791122306
 MonoBehaviour:
@@ -425,15 +454,15 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 7972489649691439781}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -446,7 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2699337774465948829}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +513,7 @@ GameObject:
   - component: {fileID: 5654078386599776961}
   - component: {fileID: 7160206956106189817}
   - component: {fileID: 4354001530407563332}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3652339922875716151}
   - component: {fileID: 6312168786690246693}
   - component: {fileID: 4298079716230633555}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 506552234383353538}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,8 +120,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2121304627688817624}
   - component: {fileID: 8930342130439795387}
+  - component: {fileID: 7485223455055076953}
   - component: {fileID: 1682301728662463182}
-  m_Layer: 0
+  - component: {fileID: -12783785861802657}
+  m_Layer: 2
   m_Name: Turret1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,6 +197,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &7485223455055076953
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629711105644869333}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.5
 --- !u!114 &1682301728662463182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,8 +226,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 100
-  turretTier: {fileID: 0}
   lifetime: 50
+  healthBar: {fileID: 1273276617372665722}
+--- !u!114 &-12783785861802657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629711105644869333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc76dc1294a5a142ae3ccee4edd34e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesClose: []
 --- !u!1 &5801884340185913250
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +252,7 @@ GameObject:
   - component: {fileID: 7959513351163092983}
   - component: {fileID: 5368593262866128405}
   - component: {fileID: 2917294775810134907}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7672448678856192496}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7084077415613025166}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +394,7 @@ GameObject:
   - component: {fileID: 2384313315200719113}
   - component: {fileID: 4094922235041966598}
   - component: {fileID: 5129202087677415861}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3731787378625387382}
   - component: {fileID: 1273276617372665722}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,9 +566,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 50
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
