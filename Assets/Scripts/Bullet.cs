@@ -4,28 +4,34 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-	public GameObject target; // what is the target
-	public Vector2 startPos; // where is the bullet starting
-	public Vector2 targetPos; // where is it going (i.e. the position of the target)
+	public float shotSpeed;
+	public float damage;
+	public Rigidbody2D rb;
 
-	public float speed; // how fast the bullet moves
-	public int damage; // how much damage it does
-
-	float dist; // how far between the bullet spawn and the target
-	float startTime; // when the bullet spawned
-
-	GameManager manager;
+	Vector2 moveDir;
 
 	void Start()
 	{
-		startTime = Time.time; // set the time when the bullet spawned
-		dist = Vector2.Distance(startPos, targetPos); // set the distance
-
-		manager = GameObject.Find("GameManager").GetComponent<GameManager>();
+		rb = GetComponent<Rigidbody2D>();
 	}
 
-	void Update()
-	{
-		
+	public void Fire(GameObject enemy)
+    {
+		Vector3 enemyPos = (enemy.transform.position - transform.position).normalized * 10;
+		moveDir = enemyPos;
+		rb.velocity = new Vector2(moveDir.x, moveDir.y).normalized * shotSpeed;
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+			Debug.Log("REEEEEEE");
+
+			EnemyHealth enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
+			enemyHealth.currentHealth -= damage;
+
+			Destroy(gameObject);
+        }
+    }
 }

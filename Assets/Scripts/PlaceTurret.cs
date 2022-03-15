@@ -36,7 +36,8 @@ public class PlaceTurret : MonoBehaviour
 	private void OnMouseUp()
 	{
 		if (TurretPlaceable()
-			&& gameManager.money >= selectedTurret.GetComponent<TurretData>().cost) // make sure this works
+			&& gameManager.money >= selectedTurret.GetComponent<TurretData>().cost
+			&& selectedTurret != null) // make sure this works
 		{
 			turret = (GameObject)Instantiate(selectedTurret, transform.position, Quaternion.identity);
 			
