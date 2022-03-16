@@ -459,6 +459,42 @@ MonoBehaviour:
     enemy2SpawnDelay: 3
     enemy1WaveCount: 10
     enemy2WaveCount: 3
+  - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
+    enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemy1SpawnDelay: 2
+    enemy2SpawnDelay: 1.5
+    enemy1WaveCount: 10
+    enemy2WaveCount: 10
+  - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
+    enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemy1SpawnDelay: 1
+    enemy2SpawnDelay: 2
+    enemy1WaveCount: 20
+    enemy2WaveCount: 10
+  - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
+    enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemy1SpawnDelay: 0.5
+    enemy2SpawnDelay: 2
+    enemy1WaveCount: 30
+    enemy2WaveCount: 15
+  - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
+    enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemy1SpawnDelay: 0.5
+    enemy2SpawnDelay: 1
+    enemy1WaveCount: 40
+    enemy2WaveCount: 20
+  - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
+    enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemy1SpawnDelay: 0.7
+    enemy2SpawnDelay: 0.75
+    enemy1WaveCount: 40
+    enemy2WaveCount: 20
+  - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
+    enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemy1SpawnDelay: 0.75
+    enemy2SpawnDelay: 0.7
+    enemy1WaveCount: 50
+    enemy2WaveCount: 45
   waypoints:
   - {fileID: 1076854215}
   - {fileID: 1319651042}

@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 		waveText.text = "Next Wave: " + (wave + 1);
 		health = 9;
 		healthText.text = "Health " + (health + 1) + "/10";
-		costText.text = "None Selected";
+		//costText.text = "None Selected"; // just in case something breaks
 	}
 
 	private void Update()
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 		}
 
 		if (gameWin == true)
-			SceneManager.LoadScene("VictoryScene"); // change this
+			SceneManager.LoadScene("VictoryScene");
 
 		if (Input.GetKeyDown(KeyCode.Escape))
         {

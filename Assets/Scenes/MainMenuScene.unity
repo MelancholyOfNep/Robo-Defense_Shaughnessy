@@ -560,7 +560,12 @@ MonoBehaviour:
 
 
     Prevent the robots from
-    reaching the end of the track on the right side of the screen!'
+    reaching the end of the track on the right side of the screen!
+
+
+    You gain
+    points for each robot destroyed and wave cleared, and your turrets will only
+    last for a limited number of shots, so be careful!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d900c8ea85d2fe47ba7892f7875a822, type: 2}
   m_sharedMaterial: {fileID: -218786939212366432, guid: 9d900c8ea85d2fe47ba7892f7875a822, type: 2}
@@ -587,8 +592,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

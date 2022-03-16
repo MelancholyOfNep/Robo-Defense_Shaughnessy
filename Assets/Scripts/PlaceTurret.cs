@@ -18,6 +18,8 @@ public class PlaceTurret : MonoBehaviour
 	private void Start()
 	{
 		gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+		selectedTurret = turretPF1;
+		gameManager.SelectedUnit(0);
 	}
 
 	bool TurretPlaceable()
