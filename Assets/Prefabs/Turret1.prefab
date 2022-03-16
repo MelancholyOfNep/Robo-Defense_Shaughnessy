@@ -116,9 +116,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 100
-  lifetime: 30
+  lifetime: 20
   fireRate: 0.75
   healthBar: {fileID: 1590297069323230172}
+  audioSource: {fileID: 937899975098947163, guid: 14d409392296e2245acd667ee44bf340, type: 3}
 --- !u!114 &-12783785861802657
 MonoBehaviour:
   m_ObjectHideFlags: 0

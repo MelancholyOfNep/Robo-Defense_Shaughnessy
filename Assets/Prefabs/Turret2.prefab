@@ -351,10 +351,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abe09dff61635934fad0bf1afcbb17af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 300
-  lifetime: 50
+  cost: 250
+  lifetime: 30
   fireRate: 0.75
   healthBar: {fileID: 8054671511977121799}
+  audioSource: {fileID: 937899975098947163, guid: 14d409392296e2245acd667ee44bf340, type: 3}
 --- !u!114 &6539083556545788578
 MonoBehaviour:
   m_ObjectHideFlags: 0

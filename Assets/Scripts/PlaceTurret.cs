@@ -56,11 +56,11 @@ public class PlaceTurret : MonoBehaviour
 
 		else if (gameManager.money < selectedTurret.GetComponent<TurretData>().cost) // idk if this is right, check that it works
         {
-			// Debug.LogError("Can't Place! Not Enough Money."); // replace
+			gameManager.TriggerAlert(0);
         }
 		else if (TurretPlaceable() == false) // idk if this is right, check that it works
 		{
-			// Debug.LogError("Can't Place! No Space."); // replace
+			gameManager.TriggerAlert(1);
 		}
 	}
 }

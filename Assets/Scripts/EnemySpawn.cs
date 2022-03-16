@@ -71,7 +71,7 @@ public class EnemySpawn : MonoBehaviour
 					// Debug.Log("Wave Over");
 					manager.waveBreak = true;
 					manager.wave++;
-					manager.money += 200;
+					manager.money += 50;
 					manager.WaveUpdate();
 
 					currentEnemy1Count = 0;

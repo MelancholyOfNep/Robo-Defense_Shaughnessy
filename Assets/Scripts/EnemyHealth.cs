@@ -7,6 +7,8 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField]
     Image healthBar;
+    [SerializeField]
+    GameObject particle;
 
     public float maxHealth;
     public float currentHealth;
@@ -31,6 +33,9 @@ public class EnemyHealth : MonoBehaviour
         {
             GameManager manager = GameObject.Find("GameManager").GetComponent<GameManager>();
             manager.money += reward;
+
+            Instantiate(particle, transform.position, Quaternion.identity);
+
             // Give points
             GameObject[] turrets = GameObject.FindGameObjectsWithTag("Turret");
             for (int i = 0; i<turrets.Length;i++)

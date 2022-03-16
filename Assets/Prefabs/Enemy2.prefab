@@ -110,9 +110,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8126374403742048554}
   - component: {fileID: 3156455432889631108}
-  - component: {fileID: -3776788945100877414}
   - component: {fileID: 841702095466883416}
   - component: {fileID: 2281532356726428804}
+  - component: {fileID: -3776788945100877414}
   - component: {fileID: 4851659824288797781}
   m_Layer: 6
   m_Name: Enemy2
@@ -187,20 +187,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-3776788945100877414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2237829474472696121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c779e6e15d41dfa478df4edb1a0763e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints: []
-  moveSpeed: 3
 --- !u!50 &841702095466883416
 Rigidbody2D:
   serializedVersion: 4
@@ -238,6 +224,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
+--- !u!114 &-3776788945100877414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2237829474472696121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c779e6e15d41dfa478df4edb1a0763e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  moveSpeed: 3
+  healthLostSFX: {fileID: 4987392085138075369, guid: b93709005f2029340ba49f23ca7e2121, type: 3}
 --- !u!114 &4851659824288797781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,9 +252,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 2790258836585710357}
+  particle: {fileID: 1022022756321711092, guid: 2ff72ba5f5d80a647a01ae352e8c5ec2, type: 3}
   maxHealth: 150
   currentHealth: 150
-  reward: 35
+  reward: 30
 --- !u!1 &5985186412495064621
 GameObject:
   m_ObjectHideFlags: 0

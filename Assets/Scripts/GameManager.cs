@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 	public TextMeshProUGUI healthText;
 	public TextMeshProUGUI costText;
 	public TextMeshProUGUI spaceToCont;
+	public TextMeshProUGUI alert;
 
 	[SerializeField]
 	GameObject pauseObj;
@@ -53,6 +54,9 @@ public class GameManager : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Escape))
         {
+			AudioSource pauseSound = pauseObj.GetComponentInChildren<AudioSource>();
+			pauseSound.PlayOneShot(pauseSound.clip, 1.0f);
+
 			if (paused)
             {
 				pauseObj.SetActive(false);
@@ -87,6 +91,27 @@ public class GameManager : MonoBehaviour
 		if (selectedUnit == 0)
 			costText.text = "Light Turret | 100";
 		if (selectedUnit == 1)
-			costText.text = "Twin Turret | 400";
+			costText.text = "Twin Turret | 250";
 	}
+
+    public void TriggerAlert(int alertCode)
+    {
+		StartCoroutine(TurretCycle(alertCode));
+    }
+
+	IEnumerator TurretCycle(int alertCode)
+    {
+		if (alertCode == 0)
+        {
+			alert.text = "Not enough money!";
+			yield return new WaitForSeconds(2f);
+			alert.text = "";
+        }
+		if (alertCode == 1)
+        {
+			alert.text = "No space!";
+			yield return new WaitForSeconds(2f);
+			alert.text = "";
+        }
+    }
 }

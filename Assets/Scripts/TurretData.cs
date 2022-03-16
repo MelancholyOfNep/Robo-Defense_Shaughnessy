@@ -11,6 +11,8 @@ public class TurretData : MonoBehaviour
 
     [SerializeField]
     Image healthBar;
+    [SerializeField]
+    GameObject audioSource;
 
     private void Start()
     {
@@ -22,6 +24,9 @@ public class TurretData : MonoBehaviour
         healthBar.rectTransform.sizeDelta = new Vector2(0.05f * lifetime, 0.05f);
 
         if (lifetime <= 0)
+        {
+            Instantiate(audioSource, transform.position, Quaternion.identity);
             Destroy(gameObject);
+        }
     }
 }

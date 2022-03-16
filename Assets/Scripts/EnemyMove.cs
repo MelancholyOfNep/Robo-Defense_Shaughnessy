@@ -10,6 +10,9 @@ public class EnemyMove : MonoBehaviour
 	float lastWPToggleTime;
 	public float moveSpeed = 0.25f;
 
+	[SerializeField]
+	GameObject healthLostSFX;
+
 	private void Start()
 	{
 		lastWPToggleTime = Time.time; // the time when the previous waypoint was hit
@@ -40,10 +43,10 @@ public class EnemyMove : MonoBehaviour
 			{
                 GameManager manager = GameObject.Find("GameManager").GetComponent<GameManager>(); // get the GameManager
 				manager.DecreaseHealth(); // decrease the player's lives
+				Instantiate(healthLostSFX, transform.position, Quaternion.identity);
 
-				// AudioSource playerLoseHealth = gameObject.GetComponent<AudioSource>();
-				// AudioSource.PlayClipAtPoint(playerLoseHealth.clip, transform.position);
-				// TODO: get audio clip for player losing health
+				CamShake cam = GameObject.Find("Main Camera").GetComponent<CamShake>();
+				cam.countdown = 1.0f;
 
 				Destroy(gameObject); // destroy the enemy
 			}
