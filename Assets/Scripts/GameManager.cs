@@ -47,6 +47,9 @@ public class GameManager : MonoBehaviour
 			spaceToCont.enabled = false;
 			waveBreak = false;
 			waveText.text = "Wave " + (wave + 1);
+
+			if (wave == 9)
+				waveText.text = "Final Wave";
 		}
 
 		if (gameWin == true)
@@ -75,6 +78,10 @@ public class GameManager : MonoBehaviour
 	public void WaveUpdate()
 	{
 		waveText.text = "Next Wave: " + (wave + 1);
+		if (wave == 9)
+        {
+			waveText.text = "LAST WAVE!";
+        }
 	}
 
 	public void DecreaseHealth()

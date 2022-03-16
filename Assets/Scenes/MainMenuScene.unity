@@ -554,18 +554,18 @@ MonoBehaviour:
     Use A and S to select the turret you want to place.
 
     Place
-    turrets with the mouse.
+    turrets on the highlighted spaces with the mouse.
 
     Press ESC to pause.
 
 
-    Prevent the robots from
-    reaching the end of the track on the right side of the screen!
+    Prevent
+    the robots from reaching the end of the track on the right side of the screen
+    for 10 waves!
 
 
-    You gain
-    points for each robot destroyed and wave cleared, and your turrets will only
-    last for a limited number of shots, so be careful!'
+    You gain points for each robot destroyed and wave cleared,
+    and your turrets will only last for a limited number of shots, so be careful!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d900c8ea85d2fe47ba7892f7875a822, type: 2}
   m_sharedMaterial: {fileID: -218786939212366432, guid: 9d900c8ea85d2fe47ba7892f7875a822, type: 2}
