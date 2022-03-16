@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -4015193571824922354}
   - component: {fileID: 1782546295659394397}
   - component: {fileID: 1345182965403710399}
-  - component: {fileID: 8407287433380786496}
   m_Layer: 6
   m_Name: Enemy1
   m_TagString: Enemy
@@ -30,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757782084673154492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.05}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 3775960316354448479}
@@ -154,19 +153,7 @@ MonoBehaviour:
   healthBar: {fileID: 1063858133260097151}
   maxHealth: 100
   currentHealth: 100
-  reward: 50
---- !u!114 &8407287433380786496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757782084673154492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f2ad8823459011459074d19b4f00757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  reward: 25
 --- !u!1 &974616684105002515
 GameObject:
   m_ObjectHideFlags: 0

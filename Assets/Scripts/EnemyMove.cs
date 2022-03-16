@@ -13,6 +13,7 @@ public class EnemyMove : MonoBehaviour
 	private void Start()
 	{
 		lastWPToggleTime = Time.time; // the time when the previous waypoint was hit
+		gameObject.transform.position = waypoints[0].transform.position;
 	}
 
 	private void Update()

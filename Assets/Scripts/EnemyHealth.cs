@@ -32,6 +32,12 @@ public class EnemyHealth : MonoBehaviour
             GameManager manager = GameObject.Find("GameManager").GetComponent<GameManager>();
             manager.money += reward;
             // Give points
+            GameObject[] turrets = GameObject.FindGameObjectsWithTag("Turret");
+            for (int i = 0; i<turrets.Length;i++)
+            {
+                TurretShoot turretShoot = turrets[i].GetComponent<TurretShoot>();
+                turretShoot.EnemyDestroyed(gameObject);
+            }
 
             Destroy(gameObject);
         }

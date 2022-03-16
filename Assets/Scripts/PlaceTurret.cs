@@ -28,9 +28,16 @@ public class PlaceTurret : MonoBehaviour
 	private void Update()
 	{
 		if (Input.GetKeyDown(Turret1Key))
+		{
 			selectedTurret = turretPF1;
+			gameManager.SelectedUnit(0);
+		}
+
 		if (Input.GetKeyDown(Turret2Key))
+        {
 			selectedTurret = turretPF2;
+			gameManager.SelectedUnit(1);
+		}
 	}
 
 	private void OnMouseUp()
@@ -49,11 +56,11 @@ public class PlaceTurret : MonoBehaviour
 
 		else if (gameManager.money < selectedTurret.GetComponent<TurretData>().cost) // idk if this is right, check that it works
         {
-			Debug.LogError("Can't Place! Not Enough Money.");
+			// Debug.LogError("Can't Place! Not Enough Money."); // replace
         }
 		else if (TurretPlaceable() == false) // idk if this is right, check that it works
 		{
-			Debug.LogError("Can't Place! No Space.");
+			// Debug.LogError("Can't Place! No Space."); // replace
 		}
 	}
 }

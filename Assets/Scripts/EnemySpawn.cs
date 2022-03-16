@@ -68,7 +68,7 @@ public class EnemySpawn : MonoBehaviour
 					&& currentEnemy2Count == waves[activeWave].enemy2WaveCount
 					&& GameObject.FindGameObjectWithTag("Enemy") == null)
 				{
-					Debug.Log("Wave Over");
+					// Debug.Log("Wave Over");
 					manager.waveBreak = true;
 					manager.wave++;
 					manager.money += 200;

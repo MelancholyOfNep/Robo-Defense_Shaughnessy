@@ -72,8 +72,8 @@ public class TurretShoot : MonoBehaviour
 		{
 			enemiesClose.Add(collision.gameObject); // adds it to the list of targets in range
 
-			EnemyKillDel killDel = collision.gameObject.GetComponent<EnemyKillDel>(); // opens the enemy's kill delegate
-			killDel.enemyDel += EnemyDestroyed; // adds the OnEnemyDestroyed function to the delegate, so when the enemy dies, it calls the function
+			// EnemyKillDel killDel = collision.gameObject.GetComponent<EnemyKillDel>(); // opens the enemy's kill delegate
+			// killDel.enemyDel += EnemyDestroyed; // adds the OnEnemyDestroyed function to the delegate, so when the enemy dies, it calls the function
 		}
 	}
 
@@ -83,12 +83,12 @@ public class TurretShoot : MonoBehaviour
 		{
 			enemiesClose.Remove(collision.gameObject); // removes it from the list of targets in range
 
-			EnemyKillDel killDel = collision.gameObject.GetComponent<EnemyKillDel>(); // opens the enemy's kill delegate
-			killDel.enemyDel -= EnemyDestroyed; // removes the function from the delegate
+			// EnemyKillDel killDel = collision.gameObject.GetComponent<EnemyKillDel>(); // opens the enemy's kill delegate
+			// killDel.enemyDel -= EnemyDestroyed; // removes the function from the delegate
 		}
 	}
 
-	void EnemyDestroyed(GameObject enemy)
+	public void EnemyDestroyed(GameObject enemy) // added call in enemy health
 	{
 		enemiesClose.Remove(enemy);
 	}

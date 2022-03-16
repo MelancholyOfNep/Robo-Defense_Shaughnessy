@@ -26,8 +26,6 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-			Debug.Log("REEEEEEE");
-
 			EnemyHealth enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
 			enemyHealth.currentHealth -= damage;
 
