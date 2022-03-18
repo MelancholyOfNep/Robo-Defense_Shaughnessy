@@ -268,6 +268,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -330,6 +338,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -437,64 +453,124 @@ MonoBehaviour:
   waves:
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
-    enemy1SpawnDelay: 2
-    enemy2SpawnDelay: 3
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
+    enemy1SpawnDelay: 3
+    enemy2SpawnDelay: 5
+    enemy3SpawnDelay: 3.5
+    enemy4SpawnDelay: 0
     enemy1WaveCount: 3
-    enemy2WaveCount: 2
+    enemy2WaveCount: 1
+    enemy3WaveCount: 3
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 2
     enemy2SpawnDelay: 3
+    enemy3SpawnDelay: 4
+    enemy4SpawnDelay: 0
     enemy1WaveCount: 6
     enemy2WaveCount: 4
+    enemy3WaveCount: 3
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 1
-    enemy2SpawnDelay: 6
+    enemy2SpawnDelay: 0
+    enemy3SpawnDelay: 0
+    enemy4SpawnDelay: 3
     enemy1WaveCount: 15
     enemy2WaveCount: 0
+    enemy3WaveCount: 0
+    enemy4WaveCount: 5
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 1
     enemy2SpawnDelay: 3
+    enemy3SpawnDelay: 2
+    enemy4SpawnDelay: 0
     enemy1WaveCount: 10
     enemy2WaveCount: 3
+    enemy3WaveCount: 5
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 2
     enemy2SpawnDelay: 1.5
+    enemy3SpawnDelay: 2.5
+    enemy4SpawnDelay: 0
     enemy1WaveCount: 10
     enemy2WaveCount: 10
+    enemy3WaveCount: 7
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 1
     enemy2SpawnDelay: 2
+    enemy3SpawnDelay: 4
+    enemy4SpawnDelay: 0
     enemy1WaveCount: 20
     enemy2WaveCount: 10
+    enemy3WaveCount: 5
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 0.5
     enemy2SpawnDelay: 2
+    enemy3SpawnDelay: 6
+    enemy4SpawnDelay: 0
     enemy1WaveCount: 30
     enemy2WaveCount: 15
+    enemy3WaveCount: 5
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
-    enemy1SpawnDelay: 0.5
-    enemy2SpawnDelay: 1
-    enemy1WaveCount: 40
-    enemy2WaveCount: 20
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
+    enemy1SpawnDelay: 0
+    enemy2SpawnDelay: 0
+    enemy3SpawnDelay: 0
+    enemy4SpawnDelay: 0.1
+    enemy1WaveCount: 0
+    enemy2WaveCount: 0
+    enemy3WaveCount: 0
+    enemy4WaveCount: 40
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 0.7
     enemy2SpawnDelay: 0.75
-    enemy1WaveCount: 40
-    enemy2WaveCount: 20
+    enemy3SpawnDelay: 1
+    enemy4SpawnDelay: 0
+    enemy1WaveCount: 30
+    enemy2WaveCount: 15
+    enemy3WaveCount: 10
+    enemy4WaveCount: 0
   - enemyPrefab1: {fileID: 757782084673154492, guid: 7e3518ee7bf68774195a2904cc1c49c3, type: 3}
     enemyPrefab2: {fileID: 2237829474472696121, guid: 5601d017b32e1854b97bf83554248982, type: 3}
+    enemyPrefab3: {fileID: 5077834737610757270, guid: eadea0da1c7c1f44b98d651fcb4c71bc, type: 3}
+    enemyPrefab4: {fileID: 4245588537778118455, guid: 2e50936a688900d4ea371f5a7ecb5d33, type: 3}
     enemy1SpawnDelay: 0.75
     enemy2SpawnDelay: 0.7
+    enemy3SpawnDelay: 2.5
+    enemy4SpawnDelay: 1
     enemy1WaveCount: 50
     enemy2WaveCount: 45
+    enemy3WaveCount: 10
+    enemy4WaveCount: 20
   waypoints:
   - {fileID: 1076854215}
   - {fileID: 1319651042}
@@ -508,6 +584,8 @@ MonoBehaviour:
   - {fileID: 689791768}
   currentEnemy1Count: 0
   currentEnemy2Count: 0
+  currentEnemy3Count: 0
+  currentEnemy4Count: 0
 --- !u!1001 &224101693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -519,6 +597,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -745,6 +831,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -939,8 +1033,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 366899545489657865, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_Name
-      value: Openspot (37
+      value: Openspot (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -1446,6 +1548,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1594,6 +1704,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1656,6 +1774,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -1718,6 +1844,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1780,6 +1914,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -2110,6 +2252,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2306,6 +2456,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -2368,6 +2526,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2460,6 +2626,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -2656,6 +2830,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -2718,6 +2900,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -2780,6 +2970,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -2976,6 +3174,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3038,6 +3244,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -3160,6 +3374,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3222,6 +3444,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -3307,8 +3537,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212.2, y: 443.12}
-  m_SizeDelta: {x: 431.95, y: 50}
+  m_AnchoredPosition: {x: 254, y: 443.12}
+  m_SizeDelta: {x: 515.64, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163279636
 MonoBehaviour:
@@ -3631,6 +3861,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3802,6 +4040,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -3864,6 +4110,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -4032,6 +4286,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -4094,6 +4356,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -4156,6 +4426,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -4218,6 +4496,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -4280,6 +4566,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -4390,6 +4684,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -4586,6 +4888,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4648,6 +4958,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -4710,6 +5028,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4772,6 +5098,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -6902,6 +7236,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -6964,6 +7306,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -7301,6 +7651,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7363,6 +7721,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -7603,6 +7969,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Openspot (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF3
+      value: 
+      objectReference: {fileID: 8657254455923540234, guid: bf027853a21f51d4cb75d83b5a42e220, type: 3}
+    - target: {fileID: 4034370974670868185, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
+      propertyPath: turretPF4
+      value: 
+      objectReference: {fileID: 4508390723850210770, guid: 9e4a7d5e3395ac948b12531b730755c6, type: 3}
     - target: {fileID: 9210392684441420556, guid: 8cba3fd4bc1f9eb4facc15ec41ec1598, type: 3}
       propertyPath: m_RootOrder
       value: 24

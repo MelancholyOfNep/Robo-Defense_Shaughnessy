@@ -7,10 +7,10 @@ public class PlaceTurret : MonoBehaviour
 	GameManager gameManager;
 
 	[SerializeField]
-	GameObject turretPF1, turretPF2;
+	GameObject turretPF1, turretPF2, turretPF3, turretPF4;
 
 	[SerializeField]
-	string Turret1Key = "a", Turret2Key = "s";
+	string Turret1Key = "a", Turret2Key = "s", Turret3Key = "d", Turret4Key = "f";
 
 	GameObject selectedTurret;
 	GameObject turret;
@@ -39,6 +39,18 @@ public class PlaceTurret : MonoBehaviour
         {
 			selectedTurret = turretPF2;
 			gameManager.SelectedUnit(1);
+		}
+
+		if (Input.GetKeyDown(Turret3Key))
+		{
+			selectedTurret = turretPF3;
+			gameManager.SelectedUnit(2);
+		}
+
+		if (Input.GetKeyDown(Turret4Key))
+		{
+			selectedTurret = turretPF4;
+			gameManager.SelectedUnit(3);
 		}
 	}
 

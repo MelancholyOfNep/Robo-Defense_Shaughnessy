@@ -99,6 +99,10 @@ public class GameManager : MonoBehaviour
 			costText.text = "Light Turret | 100";
 		if (selectedUnit == 1)
 			costText.text = "Twin Turret | 250";
+		if (selectedUnit == 2)
+			costText.text = "Rapid Turret | 150";
+		if (selectedUnit == 3)
+			costText.text = "Sniper Turret | 200";
 	}
 
     public void TriggerAlert(int alertCode)

@@ -10,6 +10,7 @@ public class TransitionScene : MonoBehaviour
 
 	public void SwitchScene()
 	{
+		Time.timeScale = 1.0f;
 		StartCoroutine(AsyncSceneLoad());
 	}
 

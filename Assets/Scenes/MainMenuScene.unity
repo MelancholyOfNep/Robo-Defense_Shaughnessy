@@ -551,7 +551,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Instructions:
 
-    Use A and S to select the turret you want to place.
+    Use A S D F to select the turret you want to place.
 
     Place
     turrets on the highlighted spaces with the mouse.
